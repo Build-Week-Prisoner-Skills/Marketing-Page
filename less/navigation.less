@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/prison.jpg");
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 4%;
+    background-color: #6495ED;
+    width: 100%;
+    @media @mobile{
+        flex-direction: column;
+    }
+
+    div {
+        display: flex;
+        width: 45%;
+        justify-content: space-between;
+        align-content: center;
+        @media @mobile{
+            width: 100%;
+            text-align: center;
+
+        }
+
+        h1 {
+            font-size: 6rem;
+            @media @mobile{
+                padding: 0 10%;
+            }
+        }
+
+        a {
+            font-size: 2rem;
+        }
+        .currentpage{
+            color: white;
+        }
+    }
+}
